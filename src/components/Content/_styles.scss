@@ -1,0 +1,4 @@
+.content {
+  @include debug(red);
+  width: 80%;
+}
