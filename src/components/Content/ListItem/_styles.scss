@@ -1,0 +1,87 @@
+.list-item {
+  display: flex;
+  padding: 20px 0;
+}
+
+.list-item__divisor {
+  width: 1px;
+  background-color: $fadedGray;
+  margin: 5px 20px;
+}
+
+.list-item__check-container {
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-item__info {
+  display: flex;
+  flex: 8;
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  color: $mediumGray
+}
+
+.list-item__info-date {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  // padding: 10px;
+}
+
+.list-item__info-locations {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  span {
+    margin: 2px 20px;
+    text-align: center;
+  }
+}
+
+.list-item__info-vehicle {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-item__info-cost {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    font-weight: 400;
+  }
+}
+
+.list-item__info-settings {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .square {
+    background-color: $coralRed;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 20px;
+  }
+}

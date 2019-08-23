@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+}
+
+.navbar__item {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding: 5px;
+
+  h5 {
+    margin-top: 5px;
+    color: $darkBlue;
+    font-size: 0.75em;
+  }
+
+  &.selected {
+    background: $darkBlue;
+
+    h5 {
+      color: white;
+    }
+  }
+}

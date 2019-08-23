@@ -20,7 +20,7 @@ Filter.propTypes = {
     icon: PropTypes.array,
     iconName: PropTypes.string,
     prefix: PropTypes.string,
-  }),
+  }).isRequired,
 }
 
 export default Filter

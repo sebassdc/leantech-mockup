@@ -1,4 +1,22 @@
 .content {
-  @include debug(red);
   width: 80%;
+
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content__search-bar-container {
+  margin: 40px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.content__list-container {
+  overflow-y: scroll;
+  height: 70%;
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
 }
